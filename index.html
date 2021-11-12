@@ -5,60 +5,106 @@
 	</head>
 	<body>
 		<div class='name'>
-			<img id="myImg" src="./images/img_snow.jpg" alt="Snow" style="width:100%;max-width:300px">
 			<h1> Кривополенова Софья Дмитриевна </h1>
+			<div class="flip-box">
+			  <div class="flip-box-inner">
+				<div class="flip-box-front">
+				</div>
+				<div class="flip-box-back">
+					<p><strong>Дата рождения:</strong> 18.02.1997</p>
+					<p><strong>Телефон:</strong> 8(911)659 29 00</p>
+					<p><strong>E-mail:</strong> kriwopolenowa.sofya@yandex.ru</p>
+				</div>
+			  </div>
+			</div>
 		</div>
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-		<div class="timeline">
-		  <div class="container left">
-			<div class="content">
-			  <h2>февраль 2020 - по настоящее время</h2>
-			  <p>Специалист в группе мониторинга региональных показателей, НМИЦ им. В.А.Алмазова</p>
-			  <p>Обязанности: сбор, парсинг, анализ данных по показателям здравоохранения по регионам РФ</p>
-			  <p>На текущий момент автоматизировала сбор статистических данных, 
-			  в частности внедрила парсинг документов форматов docx, xls, xlsx, pdf, а также парсинг данных из интернет источников.
-			  Это ускорило работу над отчетами с нескольких дней до нескольких часов. 
-			  Кроме того, реализовала визуализацию статистической информации средствами python(Plotly, Flask),
-			  что освободило аналитиков от ручного составления графиков.</p>
+			<button type="button" class="collapsible"><span>Мои навыки</span></button>
+			<div class="content_collapsible">
+				<p>Python</p>
+				<div class="container_skill">
+				  <div class="skills python">90%</div>
+				</div>
+				<p>HTML</p>
+				<div class="container_skill">
+				  <div class="skills html">80%</div>
+				</div>
+				<p>CSS</p>
+				<div class="container_skill">
+				  <div class="skills css">75%</div>
+				</div>
+				<p>JavaScript</p>
+				<div class="container_skill">
+				  <div class="skills js">75%</div>
+				</div>
 			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>июль 2020 - февраль 2020</h2>
-			  <p>Младший аналитик по научно-исследовательской работе, информационное агенство INFOLine</p>
-			  <p>Обязанности: сбор и анализ статистической информации по торговым сетям продовольственных товаров</p>
-			  <p>За время работы улучшила свои навыки работы в Excel, но т.к. это единственное достижение, решила сменить место работы :)</p>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<button type="button" class="collapsible"><span>Мой путь</span></button>
+			<div class="content_collapsible">
+				<div class="timeline">
+				  <div class="container left">
+					<div class="content">
+					  <h2>февраль 2020 - настоящее время</h2>
+					  <p>Специалист в группе мониторинга региональных показателей, НМИЦ им. В.А.Алмазова</p>
+					  <p>Обязанности: сбор, парсинг, анализ данных по показателям здравоохранения по регионам РФ</p>
+					  <p>На текущий момент автоматизировала сбор статистических данных, 
+					  в частности внедрила парсинг документов форматов docx, xls, xlsx, pdf, а также парсинг данных из интернет источников.
+					  Это ускорило работу над отчетами с нескольких дней до нескольких часов. 
+					  Кроме того, реализовала визуализацию статистической информации средствами python(Plotly, Flask),
+					  что освободило аналитиков от ручного составления графиков.</p>
+					</div>
+				  </div>
+				  <div class="container right">
+					<div class="content">
+					  <h2>июль 2020 - февраль 2020</h2>
+					  <p>Младший аналитик по научно-исследовательской работе, информационное агенство INFOLine</p>
+					  <p>Обязанности: сбор и анализ статистической информации по торговым сетям продовольственных товаров</p>
+					  <p>За время работы улучшила свои навыки работы в Excel, но т.к. это единственное достижение, решила сменить место работы :)</p>
+					</div>
+				  </div>
+				  <div class="container left">
+					<div class="content">
+					  <h2>2020</h2>
+					  <p>Диплом магистра по специальности "Прикладная математика и информатика" (СПбГУ г. Санкт-Петербург)</p>
+					  <p>Направление: Прикладная математика и информатика в задачах медицинской диагностики</p>
+					  <p>Тема дипломной работы: Разработка системы постановки диагноза на основе нечеткой логики</p>
+					</div>
+				  </div>
+				  <div class="container right">
+					<div class="content">
+					  <h2>2018</h2>
+					  <p>Диплом бакалавра по специальности "Прикладная математика и информатика" (САФУ г. Архангельск)</p>
+					  <p>Направление: Математическое обеспечение экономической деятельности</p>
+					  <p>Тема дипломной работы: Анализ медицинских данных с использованием методов математической статистики на примере показателей сердечно-сосудистых заболеваний в РФ.</p>
+					</div>
+				  </div>
+				</div>
 			</div>
-		  </div>
-		  <div class="container left">
-			<div class="content">
-			  <h2>2020</h2>
-			  <p>Диплом магистра по специальности "Прикладная математика и информатика" (СПбГУ г. Санкт-Петербург)</p>
-			  <p>Направление: Прикладная математика и информатика в задачах медицинской диагностики</p>
-			  <p>Тема дипломной работы: Разработка системы постановки диагноза на основе нечеткой логики</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>2018</h2>
-			  <p>Диплом бакалавра по специальности "Прикладная математика и информатика" (САФУ г. Архангельск)</p>
-			  <p>Направление: Математическое обеспечение экономической деятельности</p>
-			  <p>Тема дипломной работы: Анализ медицинских данных с использованием методов математической статистики на примере показателей сердечно-сосудистых заболеваний в РФ.</p>
-			</div>
-		  </div>
-		</div>
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
+			<div class="slideshow-container">
+				<div class="mySlides">
+				  <q>Самая хорошая работа – это высокооплачиваемое хобби.</q>
+				  <p class="author">- Генри Форд</p>
+				</div>
 
-		  <!-- The Close Button -->
-		  <span class="close">&times;</span>
+				<div class="mySlides">
+				  <q>Специалист, который все усложняет работает неправильно. Профессионал должен уметь делать вещи простыми.</q>
+				  <p class="author">- Ричард Брэнсон</p>
+				</div>
 
-		  <!-- Modal Content (The Image) -->
-		  <img class="modal-content" id="img01">
+				<div class="mySlides">
+				  <q>Вдохновение приходит только во время работы.</q>
+				  <p class="author">- Габриэль Маркес</p>
+				</div>
 
-		  <!-- Modal Caption (Image Text) -->
-		  <div id="caption"></div>
-		</div>
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+
+				<div class="dot-container">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
 		<script  src="./code.js"></script>
 	</body>
 </html>
